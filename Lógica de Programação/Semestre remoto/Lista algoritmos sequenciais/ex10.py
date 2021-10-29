@@ -1,5 +1,6 @@
 # O programa recebe o tamanho em metros quadrados(valor inteiro) da área a ser pintada
 # e informa ao usuário as quantidades de tinta a serem compradas e os respectivos preços 
+# O melhor preço com 10% de folga 
 # Disponível em github.com/rainervitorrv
 
 tamanhoAreaSerPintada = int(input('Informe o tamanho da área a ser pintada: '))
@@ -23,9 +24,11 @@ while qtdLitrosNecessario > 0 :
     if qtdLitrosNecessario >= 18:
         qtdLataMisto += 1
         qtdLitrosNecessario -= 18
-    else :
+    elif qtdLitrosNecessario > 3.6:
+        if (qtdLitrosNecessario * )
         qtdGalaoMisto += 1
         qtdLitrosNecessario -= 3.6
+
 
 precoTotalMisturado = qtdGalaoMisto * 25 + qtdLataMisto * 80
 
